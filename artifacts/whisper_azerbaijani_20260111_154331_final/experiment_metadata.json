@@ -1,0 +1,77 @@
+{
+  "experiment_name": "whisper_azerbaijani_20260111_154331",
+  "timestamp": "2026-01-11T20:46:11.539130",
+  "config": {
+    "model_name": "openai/whisper-tiny",
+    "language": "azerbaijani",
+    "task": "transcribe",
+    "dataset_name": "LocalDoc/azerbaijani_asr",
+    "sample_mode": true,
+    "sample_size": 500,
+    "sampling_rate": 16000,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "batch_size": 4,
+    "num_epochs": 1,
+    "learning_rate": 1e-05,
+    "warmup_steps": 20,
+    "gradient_accumulation_steps": 2,
+    "max_steps": 100,
+    "fp16": false,
+    "eval_steps": 50,
+    "save_steps": 50,
+    "logging_steps": 50,
+    "save_total_limit": 3,
+    "random_seed": 42,
+    "experiment_name": "whisper_azerbaijani_20260111_154331"
+  },
+  "device_info": {
+    "device": "mps",
+    "device_name": "Apple Silicon (MPS)",
+    "memory_gb": null,
+    "fp16_available": false
+  },
+  "model_info": {
+    "model_name": "openai/whisper-tiny",
+    "num_parameters": 37760640,
+    "language": "azerbaijani",
+    "task": "transcribe",
+    "vocab_size": 51865,
+    "d_model": 384
+  },
+  "split_info": {
+    "train": 400,
+    "validation": 50,
+    "test": 50,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42
+  },
+  "training_metrics": {
+    "train_runtime": 18029.7487,
+    "train_samples_per_second": 0.044,
+    "train_steps_per_second": 0.006,
+    "total_flos": 1.9695108096e+16,
+    "train_loss": 1.783323974609375,
+    "epoch": 2.0
+  },
+  "validation_results": {
+    "eval_loss": 1.1299750804901123,
+    "eval_wer": 59.696969696969695,
+    "eval_runtime": 17.1248,
+    "eval_samples_per_second": 2.92,
+    "eval_steps_per_second": 0.759,
+    "epoch": 2.0
+  },
+  "test_results": {
+    "eval_loss": 1.2399609088897705,
+    "eval_wer": 59.27927927927929,
+    "eval_runtime": 17.0358,
+    "eval_samples_per_second": 2.935,
+    "eval_steps_per_second": 0.763,
+    "epoch": 2.0
+  },
+  "model_path": "artifacts/whisper_azerbaijani_20260111_154331_final"
+}

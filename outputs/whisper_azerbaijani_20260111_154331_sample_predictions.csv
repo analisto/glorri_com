@@ -1,0 +1,11 @@
+sample_id,reference,prediction
+1,Biz dəyişənə STR funksiyasını təyin edərək bu funksiyanın qaytardığı dəyəri həmin dəyişənə dəyər kimi təyin edə bilərik., Biz dəyxəna əstir funksiyasın təyini dəriq bu funksiyanın qətardığı dəyəriyə həmin dəyxəna dəyərqimi təyini də bilərik.
+2,"İndi elə təsəvvür edək ki, simvolların sayını bilmədiyimiz sözün sonuncu simvolunu əldə etməyi bizə tapşırıblar."," Ində elə təsəvvur edək ki, simvulları sayını bilmədiyimiz sözün sonuncu simvulunu əldə etməyi bizə tapşırıqları."
+3,"Bu mövzumuzda biz string tipli, yəni sətr tipli obyektlər haqqında ətraflı məlumat əldə edəcəyik."," Bu müvzimiz də biz strengç tipli, yəni sətr tipli obyəqlər həqqında ətrəfləlmaq əldə dəcəyik."
+4,Tam bölmə əməliyyatı icra edərkən Python bizə bir ədədi digər ədədinə böləndə aldığımız nəticəsinin yalnız tam hissəsini bizə qaytarır.," Tam bölmə əməliyyatı izra edəxən Python bizə bir ədədi dədir ədədini, böləndə aldığımız nəxdiyicexinin yalnız tam hissəsini bizə qəyitarır."
+5,"Gəlin biz dərsimizi konsul yox, fayl vasitəsilə davam etdirək."," Gənin biz dərsimizə konsol yox, falvası sila davam ettirəq."
+6,"Bu hərfin sıra sayı, yəni indeksi, salam sözündə ikidir."," Bu hərfin sıra sayı, yəni indəxi salam sözündə iki dür."
+7,Obyektlər mövzusuna keçməmişdən əvvəl gəlin Python proqramının nə olduğunu bir daha təkrarlayaq., Bir yəklər müvusuna kəcmə müşdənaqvəl qələn paytın proqramının nə olduğunu bir dətəkirərləə.
+8,Sözün sonuna qədər olan hissəni bizə qaytar., Sözün sonuna qədər olan hissəni bizə qaytar.
+9,Yəni mən və probel işarəsi birlikdə bizim birinci sətr tipli obyektimizi yaratdı., Yəni mən və probəli işərəsi birlikdir bizim birinci sətr tipli obyəktiyimiz yaradır.
+10,Burada artıq bizim birinci sətr tipli obyektimiz ancaq mən sözündən ibarətdir., Lə artıq bizim birinci sətrətiplə obyektimiz ancaq mən sözünden ibarətidir.
